@@ -1,3 +1,86 @@
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: EFEFEF;
+    color: 434343;
+    font-family: sans-serif;
+}
+
+a {
+  color: #676767;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #434343;
+}
+
 .header {
-    color: green;
+border-top: solid 8px #D6574C;
+}
+
+.nav {
+     margin-top: 12px;
+     margin-left: 50%;
+     margin-top: 2%;
+   }
+
+.home_link {
+    display: inline;
+    list-style: none;
+    margin-right: 12px;
+}
+
+.gallery_link {
+    display: inline;
+    list-style: none;
+    margin-right: 12px;
+}
+
+.contact_link {
+    display: inline;
+    list-style: none;
+    margin-right: 12px;
+}
+
+.hero-image {
+    margin-left: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.title {
+  color: #019cdb;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.main {
+    font-size: 45px;
+    color: 434343;
+}
+
+.sub {
+    font-size: 16px;
+    color: 676767;
+}
+
+.footer-sub {
+  font-size: 30px;
+  color: 434343;
+}
+
+.button {
+    border: 2px solid #019cdb;
+    color: 019cdb;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 12px;
+    padding: 12px 30px;
+}
+
+.button:hover {
+  background-color: #019cdb;
+  color: #dfdfdf;
+  cursor: pointer; /* This ensures that the cursor changes on hover */
 }
