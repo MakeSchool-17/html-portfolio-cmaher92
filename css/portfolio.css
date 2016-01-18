@@ -128,11 +128,11 @@ a:hover {
 
 @media (max-width: 481px) {
   .main {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .sub {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .img-wrapper {
@@ -142,11 +142,11 @@ a:hover {
 
 @media (min-width: 481px) and (max-width:630px) {
   .main {
-    font-size: 46px;
+    font-size: 36px;
   }
 
   .sub {
-    font-size: 33px;
+    font-size: 26px;
   }
 
   .img-wrapper {
@@ -156,11 +156,11 @@ a:hover {
 
 @media (min-width: 630px) and (max-width:767px) {
   .main {
-    font-size: 64px;
+    font-size: 44px;
   }
 
   .sub {
-    font-size: 46px;
+    font-size: 32px;
   }
 
   .img-wrapper {
