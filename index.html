@@ -5,29 +5,42 @@
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
 
-    <body>
+    <body class="default">
 
-        <header class="header">
-            <nav class="nav">
-                <ul>
-                    <li class="home_link"><a href="./index.html">Home</a></li>
-                    <li class="gallery_link"><a href="./gallery.html">Gallery</a></li>
-                    <li class="contact_link"><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="main-wrapper">
+            <header class="header">
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <section>
-            <img src="https://goo.gl/RG3GtK" />
-            <img src="./profile.jpg" class="hero-image"/>
-            <h1 class="main title">Hello I'm Connor</h1>
-            <h2 class="sub title">@MakeSchool Student, aspiring to make an impact</h2>
-        </section>
+            <div class="flex column">
+                <section>
+                    <div class="flex column">
+                        <img class="logo" src="https://goo.gl/RG3GtK" />
+                        <div class="image-wrapper">
+                        <img class="main-img circle" src="./profile.jpg" />
+                        </div>
+                    </div>
+                    <div class="titles flex column">
+                        <h1 class="main title">Hello I'm Connor</h1>
+                        <h2 class="sub title">@MakeSchool Student, aspiring to make an impact</h2>
+                    </div>
+                </section>
+            </div>
+        </div>
 
-        <footer>
-            <h3 class="footer-sub title">About</h3>
-            <a href="./resume.pdf" download="Connor Maher's Resume" class="button">Download Resume</a>
-        </footer>
-
+            <footer class="footer">
+                <div class="flex">
+                    <div class="line"></div>
+                    <h3 class="footer-sub title">About</h3>
+                    <div class="line"></div>
+                </div>
+                <a class="button" href="./resume.pdf" download="Connor Maher's Resume" >Download Resume</a>
+            </footer>
     </body>
 </html>
