@@ -24,17 +24,19 @@
 
             <section>
                 <h2 class="title sub">Contact Connor</h2>
-                <form class="flex column">
-                    <input class="input" type="email" placeholder="Enter your email" required>
-                    <textarea class="textarea" rows="10" cols="20" placeholder="Write me something nice!" required></textarea>
+                <form class="flex column" id="form" action="http://formspree.io/connormmaher@gmail.com" method="POST">
 
-                    </textarea>
-                    <!--button:submit-->
-                    <button type="submit" class="button">Send</button>
-            </input>
-            </form>
+                  <input class="input-field" type="email" name="_replyto" placeholder="Your Email" required />
+                  <textarea class="input-field" rows="10" cols="20" placeholder="Write me something nice!" required></textarea>
+
+                  <input type="hidden" name="_subject" value="Email from Connor's Portfolio" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <button class="button" type="submit">Send</button>
+
+                </form>
             </section>
             <!-- section>h2+(form>input:email>textarea+button:submit) -->
+
 
 
             <script src="./js/vendor/jquery-2.2.0.min.js"></script>
